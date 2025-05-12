@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/Mycss.css">
+    <script src="./js/Myjs.js" defer></script>
+    <title>Profile</title>
+</head>
+<body>
+<header>
+    <div class="bgsec-text">
+        <nav>
+            <div class="bot">
+                <button onclick="showSection('about')">About</button>
+                <button onclick="showSection('experience')">Experience</button>
+                <button onclick="showSection('education')">Education</button>
+                <button onclick="showSection('skills')">Skills</button>
+                <button onclick="showSection('projects')">Projects</button>
+                <button onclick="showSection('contact')">Contact</button>
+
+            </div>
+        </nav>
+    </div>
+</header>
+<div class="pgback"></div>
+<div class="bg-text">
+    <!-- ---------------------------------Section 1: About-------------------------------- -->
+   <section id="about" class="section active">
+  <div class="interview" style="flex-basis: 48%; margin-right: 2px;">
+    <h1>Raghad Agbaria</h1>
+    
+    <hr style="border: 2px solid #fff; width: 60px; margin: 15px auto;
+    border-radius: 10px;">
+
+   <div style="position: relative; width: 200px; height: 200px; margin: 50px auto;">
+      <img 
+        src="img/raghad.jpg" 
+        alt="Raghad" 
+        style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); transition: transform 0.4s ease;"
+        onmouseover="this.style.transform='scale(1.05)'" 
+        onmouseout="this.style.transform='scale(1)'"
+      >
+    </div>    
+    <h3 style="text-align: center;">Computer Science &  math Graduate | Entry-Level Tech Role<br>
+    Junior ML Developer | Computer Vision & Robotics Projects</h3><br><br>
+
+    <p style="margin-top: 20px; text-align: left;">
+      I began my academic journey early by joining a university-level computer science track in the 9th grade, 
+      as part of the “פרחי הייתק” excellence program.<br>
+      Despite the challenges and academic pressure, I successfully built a strong foundation in technology and problem-solving.<br>
+      As part of my studies, I developed two key projects: a hand-tracking robot and a facial recognition system.<br>
+      I am passionate about machine learning and eager to grow in the tech industry.<br>
+      I have strong communication skills, the ability to work in teams, and the resilience to handle pressure.<br> 
+      My academic experience has taught me not only coding and development but also critical thinking and creativity.<br><br>
+    </p>
+
+    <!-- النسخة العربية -->
+    <p dir="rtl" style="margin-top: 20px; color: #fcfbfb; font-weight: bold; text-align: right;">
+      بدأت رحلتي الأكاديمية مبكرًا بالانضمام إلى مسار جامعي في علوم الحاسوب منذ الصف التاسع، كجزء من برنامج "פרחי הייתק" للمتفوقين.<br>
+      رغم التحديات والضغط الأكاديمي، نجحت في بناء أساس قوي في مجال التكنولوجيا وحل المشكلات.<br>
+      ضمن مشاريعي، طورت روبوت يتتبع حركة اليد، ونظامًا للتعرف على الوجوه.<br>
+      لدي شغف كبير بتعلم الآلة وأتطلع للنمو المهني في مجال التكنولوجيا.<br>
+      أتمتع بمهارات تواصل ممتازة، والقدرة على العمل الجماعي، والمرونة تحت الضغط. وقد طورت تجربتي الأكاديمية مهارات التفكير النقدي والإبداع.<br><br>
+    </p>
+
+    <!-- النسخة العبرية -->
+    <p dir="rtl" style="margin-top: 20px; color: #fcfbfb; font-weight: bold; text-align: right;">
+      התחלתי את המסע האקדמי שלי מוקדם כשהצטרפתי למסלול מדעי המחשב ברמה אוניברסיטאית כבר בכיתה ט׳, כחלק מתוכנית המצוינות "פרחי הייטק".<br>
+      למרות האתגרים והלחץ האקדמי, בניתי בסיס חזק בטכנולוגיה ופתרון בעיות.<br>
+      במסגרת הלימודים שלי פיתחתי שני פרויקטים עיקריים: רובוט שעוקב אחרי תנועת יד ומערכת לזיהוי פנים.<br>
+      אני נלהבת מלמידת מכונה ומעוניינת להתפתח בתעשיית ההייטק.<br>
+      יש לי כישורי תקשורת מצוינים, יכולת לעבוד בצוותים, ועמידות בלחץ. הלימודים חיזקו את יכולת החשיבה הביקורתית והיצירתיות שלי.
+    </p>
+  </div>
+</section>
+
+
+<!-- ----------------------------Section 2: Experience ---------------------------------->
+<section id="experience" class="section">
+  <h1>Experience</h1>
+  <hr>
+
+  <div class="interview-container" style="margin-top: 20px;">
+    
+    <!-- Teaching Experience -->
+    <div class="interview" style="flex-basis: 48%; margin-right: 20px;text-align: left">
+      <h2>Company:</h2>
+      <h3>Private Institute, Basmaa</h3>
+
+      <h2>Role:</h2>
+      <h3>Computer Science & C# Programming Teacher</h3>
+
+      <h2>Duration:</h2>
+      <h3>2022 – 2024</h3>
+
+      <h2>Responsibilities & Achievements:</h2>
+      <ul style="text-align: left; padding-left: 20px;">
+        <li>Designed and delivered interactive lessons in computer science and C# for middle and high school students.</li>
+        <li>Developed custom teaching materials and simplified complex topics for different age groups.</li>
+        <li>Encouraged students to build mini-projects to apply what they learned.</li>
+        <li><strong>What I gained:</strong> Improved my public speaking and leadership skills, deepened my technical understanding by teaching others, and learned how to adapt to different learning styles.</li>
+      </ul>
+    </div>
+
+    <!-- Secretary Experience -->
+    <div class="interview" style="flex-basis: 48%;text-align: left">
+      <h2>Company:</h2>
+      <h3>א.ח.חאלד בע’’מ</h3>
+
+      <h2>Role:</h2>
+      <h3>Administrative Secretary</h3>
+
+      <h2>Duration:</h2>
+      <h3>2021 – 2023</h3>
+
+      <h2>Responsibilities & Achievements:</h2>
+      <ul style="text-align: left; padding-left: 20px;">
+        <li>Handled a wide range of administrative tasks, including scheduling, filing, and document preparation.</li>
+        <li>Acted as a liaison between departments and management to ensure smooth communication.</li>
+        <li>Maintained databases and ensured accuracy of internal documentation.</li>
+        <li><strong>What I gained:</strong> Strengthened my organizational skills, mastered time management, improved my communication abilities, and learned to multitask under pressure.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ----------------------------Section 3: Education ---------------------------------->
+<section id="education" class="section">
+    <h1>Education:</h1>
+  <hr>
+
+  <div class="interview-container" style="justify-content: center;">
+    <div class="interview" style="flex-basis: 80%; margin: 20px auto; text-align: left;">
+      
+      
+      <h2>Institution:</h2>
+      <h3>Netanya Academic College</h3>
+
+      <h2>Degree:</h2>
+      <h3>B.Sc. in Computer Science & Mathematics</h3>
+
+      <h2>Duration:</h2>
+      <h3>2019 – 2025</h3>
+
+      <h2>Highlights & Focus Areas:</h2>
+      <ul style="padding-left: 20px;">
+        <li>Developed strong foundation in algorithms, data structures, and discrete mathematics.</li>
+        <li>Focused on artificial intelligence, computer vision, and robotics through elective courses and personal projects.</li>
+        <li>Completed two major projects:
+          <ul>
+            <li>Hand-Tracking Robot (using Raspberry Pi and computer vision)</li>
+            <li>Facial Recognition System (with real-time detection)</li>
+          </ul>
+        </li>
+        <li>Worked on real-world problems, collaborated with peers, and improved analytical thinking and coding skills.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- ----------------------------Section 4: Skills ---------------------------------->
+<section id="skills" class="section">
+<h1>Skills:</h1>
+  <hr>
+
+  <div class="interview-container" style="justify-content: center;">
+    <div class="interview" style="flex-basis: 80%; margin: 20px auto; text-align: left;">
+      
+      <h2>Programming Languages:</h2>
+      <h3>Python, Java, C#, JavaScript, HTML/CSS</h3>
+
+      <h2>Technologies & Frameworks:</h2>
+      <h3>Flask, OpenCV, YOLO, Web Development, Computer Vision</h3>
+
+      <h2>Concepts:</h2>
+      <h3>Machine Learning, Data Analysis, Algorithms, Data Structures</h3>
+
+      <h2>Software Tools:</h2>
+      <h3>Microsoft Office Suite (Word, Excel, PowerPoint)</h3>
+
+      <h2>Soft Skills:</h2>
+      <h3>Teamwork, Problem-Solving, Time Management, Communication, Adaptability</h3>
+
+      <br><br>
+    </div>
+  </div>
+</section>
+
+
+<!-- ----------------------------Section 5: Projects ---------------------------------->
+<section id="projects" class="section">
+  <h1>Projects:</h1>
+    <hr>
+
+  <div class="interview-container" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+    
+    <!-- Hand Tracking Robot Project -->
+    <div class="interview" style="flex-basis: 48%; margin-top: 20px;">
+      <h2 style="color: #fdfdfd;">Project:</h2>
+      <h3>Hand Tracking Robot</h3>
+      
+      <h2 style="color: #fdfdfd;">Description:</h2>
+      <p>
+        Designed and built a mobile robot that follows the user's hand in real-time using computer vision.
+        The robot uses a Raspberry Pi as its main controller and processes live camera input to detect and track hand position.
+        The goal of the project was to explore the integration of hardware with real-time machine learning models for responsive motion.
+        This project significantly deepened my understanding of robotics, computer vision pipelines, and performance optimization on edge devices.
+      </p>
+
+      <h2 style="color: #fdfdfd;">Technologies:</h2>
+      <p>Python, Raspberry Pi, OpenCV, YOLO, Machine Learning</p>
+
+      <!-- Video Placeholder -->
+      <div style="margin-top: 20px;">
+        <video controls style="width: 100%; border-radius: 10px;">
+        <source src="img/handrobot.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <!-- Face Recognition Project -->
+    <div class="interview" style="flex-basis: 48%; margin-top: 20px;">
+      <h2 style="color: #fdfdfd;">Project:</h2>
+     <h3>Face Recognition System</h3>
+  <h2 style="color: #fdfdfd;">Description:</h2>
+  <p>
+    Developed a full-stack face recognition web application capable of identifying individuals from images or live video streams.
+    The system includes real-time face detection, feature extraction, and identity classification.
+    I implemented the backend using Flask and integrated it with a responsive frontend using HTML/CSS and JavaScript.
+    Through this project, I learned to manage complete project architecture, optimize model inference, and deliver functional user interfaces.
+  </p>
+
+  <h2 style="color: #fdfdfd;">Project Goals:</h2>
+  <p>
+    Build an intelligent system that can recognize and distinguish between human faces in real time.
+    Ensure the system can work both with static images and live video feeds using a webcam.
+    Develop a complete full-stack web interface for user interaction.
+  </p>
+
+  <h2 style="color: #fdfdfd;">How It Works:</h2>
+  <p>
+    1. Face Detection: Using OpenCV’s Haar cascades or DNN models to detect faces in the frame.<br>
+    2. Feature Extraction: Each detected face is processed to extract unique features (face embeddings) using deep learning models.<br>
+    3. Recognition/Classification: The system compares the extracted features against a known database using distance metrics.<br>
+    4. Web Interface: A frontend in HTML/CSS/JS interacts with a Flask backend handling all ML logic.
+  </p>
+
+  <h2 style="color: #fdfdfd;">Key Features:</h2>
+  <p>
+    - Real-time webcam face recognition.<br>
+    - Upload and store new faces.<br>
+    - High accuracy through feature-based comparison.<br>
+    - Integrated ML with interactive web UI.
+  </p>
+
+  <h2 style="color: #fdfdfd;">What I Learned:</h2>
+  <p>
+    - Developed a complete ML project from scratch.<br>
+    - Gained deeper understanding of computer vision and face recognition.<br>
+    - Enhanced Flask, OpenCV, and JavaScript skills.<br>
+    - Learned optimization techniques for real-time inference.
+  </p>
+
+  <h2 style="color: #fdfdfd;">Technologies:</h2>
+  <p>Python, OpenCV, Flask, HTML, CSS, JavaScript, NumPy</p>
+</div>
+
+
+  </div>
+</section>
+
+
+<!-- ----------------------------Section 6: Contact ---------------------------------->
+<section id="contact" class="section">
+    <h1>Contact:</h1>
+  <hr>
+
+    <div class="interview-container" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <div class="interview" style="flex-basis: 48%; margin-top: 2px;  margin: 20px auto;">
+
+                <h2>
+                    <img style="height: 50px; width: auto; border-radius: 22%" src="img/phone.avif" alt="phone">
+                    Phone:
+                    <a href="tel:0509913836"> 0509913836</a>
+                </h2>
+
+            <h2>
+                
+                    <img style="height:50px; width: auto; border-radius: 22%" src="img/email.jpg" alt="email">
+                    Email:
+                
+                <a href="mailto:ragadag62@gmail.com">ragadag62@gmail.com</a>
+            </h2>
+
+            <h2>
+                <img style="height: 50px; width: auto; border-radius: 22%" src="img/address.png" alt="address">
+                Address: 
+                Mosherfa, Ma'ale Iron
+            </h2>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 Raghad Agbaria | All rights reserved</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/raghad-egbaria-6694a1362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>
+            <a href="https://github.com/ragadag621">GitHub</a>
+            <a href="https://www.kaggle.com/raghadeghbaria">Kaggle</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
